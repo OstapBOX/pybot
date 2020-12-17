@@ -23,3 +23,4 @@ def statistic(message):
     if message.text.lower() == "текущая статистика":
         bot.send_message(message.chat.id, "Статистика подписчиков:\nFacebook: " + a + "\nВконтакте: " + b + "\nInstagram: " + c)
 
+bot.polling()
